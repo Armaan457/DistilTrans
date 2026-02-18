@@ -1,4 +1,5 @@
-# ConvoAI Project
+# Hindi to English Machine Translation Optimization using Fine-Tuning and Knowledge Distillation
+
 
 Experimental fine-tuning and knowledge distillation for Hindi–English translation models.
 
