@@ -1,0 +1,7 @@
+torch
+transformers
+matplotlib
+pandas
+numpy
+ipykernel
+sentencepiece
