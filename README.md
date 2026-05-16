@@ -1,5 +1,4 @@
-# Hindi to English Machine Translation Optimization using Fine-Tuning and Knowledge Distillation
-
+# DistilTrans
 
 Experimental fine-tuning and knowledge distillation for Hindi–English translation models.
 
@@ -12,5 +11,6 @@ This project explores two complementary approaches to optimization:
 
 ## Key Results
 
-- Fine-tuned models achieve improved BLEU on held-out English→Hindi translation tasks.
-- Distilled student models reduce inference latency and footprint while maintaining acceptable BLEU scores.
+- Fine-tuning improved English→Hindi translation quality from **23.66 BLEU** to **27.58 BLEU**.
+- Knowledge distillation reduced model size by approximately **29%** (**76.38M → 54.31M parameters**).
+- The distilled student model retained around **90%** of the teacher model’s translation performance while enabling more efficient deployment.
