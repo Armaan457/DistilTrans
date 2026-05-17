@@ -1,12 +1,12 @@
 # DistilTrans
 
-Experimental fine-tuning and knowledge distillation for Hindi–English translation models.
+Experimental fine-tuning and knowledge distillation for English → Hindi translation models.
 
 ## Overview
 
 This project explores two complementary approaches to optimization:
 
-1. **Fine-tuning** (`finetune.ipynb`) — Adapt a pretrained Marian MT model on parallel Hindi–English data for improved translation quality.
+1. **Fine-tuning** (`finetune.ipynb`) — Adapt a pretrained Marian MT model on parallel English → Hindi data for improved translation quality.
 2. **Knowledge Distillation** (`distill.ipynb`) — Compress a teacher model into a smaller, faster student while preserving translation performance.
 
 ## Key Results
